@@ -1,0 +1,78 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: #f1f1f1;
+}
+body {
+    background-image: url('img/background-signup.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  h2{
+    font-size: 50px;
+    padding-top:90px;
+  }
+  span{
+    font-size: 20px;
+    /* margin-bottom:85px; */
+  }
+  span > a{
+    text-decoration:none;
+    color: #5092BCB8;
+    cursor: pointer;
+  }
+  h2, span{
+    padding-left:55px;
+
+  }
+  
+  form{
+    padding-left:55px;
+    padding-top:55px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    
+    width: 692px;
+    height: 50px;
+    padding: 5px;
+    font-size: 16px;
+    background: rgba(147, 145, 145, 0.8);
+    border-radius: 10px;
+
+  }
+
+  input[type="text"]::placeholder,
+  input[type="email"]::placeholder,
+  input[type="tel"]::placeholder,
+  input[type="password"]::placeholder{
+    color: #f1f1f1;
+    opacity:50%;
+
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #5092BCB8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius:10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #295875;
+    transition-duration: 0.3s;
+  }
+  
