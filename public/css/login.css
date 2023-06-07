@@ -1,0 +1,52 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: #f1f1f1;
+    /* background: #001428; */
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background: #001428; */
+    background-image: url('img/background-login.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+
+  
+  h2 {
+    text-align: center;
+    font-size:50px;
+    padding-bottom:50px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    color:#000;
+  }
+  
+  button {
+    background: #5092BCB8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #295875;
+    transition-duration: 0.3s;
+  }
+  
